@@ -6,3 +6,15 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 -run git diff to compare the working directory to the staging area, then remove any files that are outside of one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-When creating experimental features, adding languages, radical changes. Branches will help keep the original intact.
+
+How do the diagrams help you visualize the branch structure?
+They let you see the branches in one place and follow them back in time.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-all the changes are combined into one branch. to show that there are two paths in the single branch (two parents).
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-Automatic merging is faster but it may not resolve some conflicts.
