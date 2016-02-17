@@ -1,4 +1,5 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+-When travelling, when working within a group that is spread out, when sharing a project with the public.
 
 Commands:
 
